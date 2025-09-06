@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 1,
+  "id": "com.yourname.fear-tracker",
+  "name": "Fear Tracker",
+  "version": "1.0.0",
+  "description": "Track Fear points with a skull clock interface for horror RPGs",
+  "author": "Your Name",
+  "icon": "/icon.svg",
+  "action": {
+    "title": "Fear Tracker",
+    "icon": "/skull-icon.svg",
+    "popover": "/index.html"
+  },
+  "permissions": [
+    "scene/read",
+    "scene/write"
+  ]
+}

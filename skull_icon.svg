@@ -1,0 +1,26 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Skull shape -->
+  <path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h1v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2h1c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7z" fill="#ff0000" filter="url(#glow)"/>
+  
+  <!-- Eye sockets -->
+  <circle cx="9" cy="10" r="1.5" fill="#000"/>
+  <circle cx="15" cy="10" r="1.5" fill="#000"/>
+  
+  <!-- Nasal cavity -->
+  <path d="M12 12l-1 2h2l-1-2z" fill="#000"/>
+  
+  <!-- Teeth -->
+  <rect x="10" y="16" width="1" height="2" fill="#fff"/>
+  <rect x="12" y="16" width="1" height="2" fill="#fff"/>
+  <rect x="14" y="16" width="1" height="2" fill="#fff"/>
+</svg>
